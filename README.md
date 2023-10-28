@@ -1,11 +1,10 @@
-# android-udev-rules
-Android udev rules list aimed to be the most comprehensive on the net 
+# Android Udev Rules
+"These files allow to communicate between PC and Android devices" 
 
-See [repository](https://github.com/M0Rf30/android-udev-rules)
+#### [HOME](https://developer.android.com/studio/run/device.html) | [SOURCE](https://github.com/M0Rf30/android-udev-rules)
 
 Install
 
-```shell
-kcp -u
-kcp -i android-udev-rules -d
+```
+kcp -i android-udev-rules
 ```
