@@ -1,0 +1,14 @@
+pkgbase = android-udev-rules
+	pkgdesc = These UDEV files allow to communicate between PC and Android devices without the necessity of Administrator privileges.
+	pkgver = 20240221
+	pkgrel = 1
+	url = https://github.com/M0Rf30/android-udev-rules
+	install = android-udev-rules.install
+	arch = x86_64
+	license = GPL3
+	depends = systemd
+	depends = libmtp
+	source = android-udev-rules-20240221.tar.gz::https://github.com/M0Rf30/android-udev-rules/archive/20240221.tar.gz
+	sha1sums = SKIP
+
+pkgname = android-udev-rules
