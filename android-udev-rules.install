@@ -36,4 +36,5 @@ fi
 }
 post_upgrade() {
     post_install $1
+      cat /etc/group
 }
